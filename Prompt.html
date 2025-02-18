@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>preweb</title>
+    <h1><cite><center>Intro</center></cite></h1>
+    <meta id="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p style="text-align: center; background-color: blueviolet; font-size: x-large;"">This program is designed to prompt the user to input their personal information in order to proceed</p>
+<form style="background-color:aquamarine">
+    <fieldset>
+        <legend>User Information</legend>
+        <label for="First name">FIRST NAME:</label><br>
+        <input type="First name" id="First name" name="First name" required><br>
+        <label for="Last name">LAST NAME:</label><br>
+        <input type="Last name" id="Last name" name="Last name"><br>
+        <label for="email">EMAIL:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="pass"><br>
+        <label for="confirmPassword">Please confim Your Password:</label><br>
+        <input type="confirmPassword" id="confirmPassword" name="confirmPass"><br>
+        <label for="phone number">Enter Your Phone Number</label><br>
+        <input type="phone number" id="phone number" name="number"><br>
+        <label for="photo">Upload Your Photo:</label><br>
+        <input type="file" id="photo" name="photo" less than 5mb><br>
+        <label for="date of birth">DoB:</label><br>
+        <input type="date" id="date of birth" name="date of birth" required><br>
+        <label for="age">Your Age:</label><br>
+        <input type="text" id="age" name="age"><br>
+        <label>Gender</label><br>
+        <div class="gender-group">
+            <input type="radio" name="male" value="male" id="male" required>
+            <label for="male">Male</label><br>  
+        <input type="radio" name="female" value="female" id="female">
+        <label for="female">Female</label><br>
+        <input type="radio" name="other" value="other" id="other">
+        <label for="other">Other</label><br>
+        </div>
+        <label for="address">Enter your Address:</label><br>
+            <textarea id="address" name="address" required></textarea><br>
+            <input type="submit" value="Submit" /><br>
+    </fieldset>
+
+</form>
+<div class="container">
+    <h1>Random Joke Generator</h1>
+    <div id="joke" class="joke">Press the button to get a joke!</div>
+    <button id="jokeBtn" class="joke-btn">Get a Joke</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
