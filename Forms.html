@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>User Personal Information</title>
+        <link rel="stylesheet" href="styles.css">       
+    </head>
+<body>
+<style>
+    div {
+background-color: rgb(0, 255, 242);
+padding: 18px;
+ font-family: Arial, Helvetica, sans-serif; 
+ border: 2px solid blue; 
+ font-size: larger;
+ text-decoration: double;
+ text-align: center;
+ width: 500px;
+ height: 700px;
+    }
+    p2 {
+        background-color: rgb(255, 208, 205);
+ font-family: Arial, Helvetica, sans-serif;  
+ font-size: larger;
+ text-decoration: double;
+ text-align: center;
+    }
+</style>
+<div>
+        <form>
+        <fieldset>
+            <legend>User Personal Information</legend>
+            <label for="name">Enter your full name:</label><br>
+            <input type="text" id="name" name="name" required /><br>
+            <label for="email">Enter your email:</label><br>
+            <input type="email" id="email" name="email" required /><br>
+            <label for="password">Enter your password:</label><br>
+            <input type="password" id="password" name="pass" required /><br>
+            <label for="confirmPassword">Confirm your password:</label><br>
+            <input type="password" id="confirmPassword" name="confirmPass" required /><br><br>
+            <label>Enter your gender:</label><br>
+            <p2 class="gender-group"><br>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="male" id="male" required /><br><br>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="female" id="female" /><br><br>
+                <label for="others">Others</label>
+                <input type="radio" name="gender" value="others" id="others" /><br><br>
+                </p2>  
+            <label for="dob">Enter your Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required /><br>
+            <label for="User Unique Number">Enter your User Unique Number:</label><br>
+           <input type="number" id="User Unique Number" name="User Unique Number" required><br>
+            <label for="photo">Upload Your Photo</label><br>
+            <input type="file" id="photo" name="photo"><br>
+            <input type="button" value="Create Account" /><br>
+            <hr style="border: 0cqb; background-color: black; height: 2px;">
+            <label for="An Existing account">Already Have An Account?</label>
+            <input type="submit" value="Login"><br>
+            <button id="next">Next</button>
+        </fieldset>
+    </form>
+</div>
+</body>
+
+</html>
