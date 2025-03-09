@@ -1,0 +1,71 @@
+/* Centering the form */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background-color: white; /* Change as needed */
+}
+
+/* Styling the form container */
+.container {
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+    border: 2px solid black; 
+    font-size: larger;
+    text-align: center;
+    width: 40%;
+    height: auto; /* Allows content to expand */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(207, 23, 23);
+    max-width: 500px;
+    padding: 20px;
+}
+
+/* Gender group styling */
+.gender-group {
+    background-color: rgb(47, 194, 86);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Styling inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="file"] {
+    width: 90%; /* Slightly smaller */
+    max-width: 400px;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #cccccc00;
+    border-radius: 5px;
+}
+.gender-box {
+    width: 80%; 
+    max-width: 300px;
+    padding: 10px;
+    background-color: #f8d7da; 
+    border-radius: 5px;
+    margin: auto; /* Center it */
+}
+
+
+/* Button styling */
+button, input[type="button"], input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+    background-color: orangered;
+}
